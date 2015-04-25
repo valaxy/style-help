@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+/** flex layout icon wrap, center in vertical  */
+@mixin icon-wrap($height: 100%) {
+	display:        flex;
+	flex-direction: row;
+	height:         $height;
+	align-items:    center;
+}
+
+/** icon */
+@mixin icon($size: 14px, $outerSize: $size+4) {
+	width:       $outerSize;
+	height:      $outerSize;
+	line-height: $outerSize;
+	font-size:   $size;
+	text-align:  center;
+	cursor:      pointer;
+
+	&:hover {
+		border:        1px solid #7A8084;
+		border-radius: 2px;
+		height:        $outerSize;
+		width:         $outerSize - 2;
+		background:    grey;
+	}
+}

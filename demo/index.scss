@@ -1,0 +1,12 @@
+@charset "utf-8";
+@import "../bower_components/font-awsome/css/font-awesome.css";
+@import "../icon";
+
+icon-wrap {
+	@include icon-wrap(50px);
+	border: 1px solid #000;
+
+	.one {
+		@include icon();
+	}
+}

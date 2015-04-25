@@ -1,0 +1,19 @@
+{
+  "name": "style-help",
+  "version": "0.0.0",
+  "homepage": "https://github.com/valaxy/style-help",
+  "authors": [
+    "valaxy <valaxy@qq.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awsome": "~4.3.0"
+  }
+}
